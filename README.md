@@ -2,6 +2,3 @@
 
 My Portfolio
 
-cd elliesite
-npm install
-npm run dev

@@ -22,7 +22,7 @@
             </ul>
         </nav>
         <img src="/images/personallogo.png" alt="My Image" style="width:250px;height:auto;">
-        <h1 class="section">Ellie Smith</h1>
+        <h1 id="typing-header" class="section">Ellie Smith</h1>
         <h2 class="section">Computer Science Student | Developer | UX/UI Designer</h2>
         <p class="section">
             Results-driven Computer Science student with a strong interest in UX design and Product Management. 
@@ -123,25 +123,46 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const sections = document.querySelectorAll('.section');
-    
+        const header = document.getElementById("typing-header");
+        const text = header.innerText;
+        header.innerText = ""; // Clear the text initially
+        let index = 0;
+        const typingSpeed = 150; // Adjust speed as needed
+        let typingStarted = false; // To ensure typing starts only once
+
+        function typeText() {
+            if (index < text.length) {
+                header.innerText += text.charAt(index);
+                index++;
+                setTimeout(typeText, typingSpeed);
+            }
+        }
+
         function checkVisibility() {
             const windowHeight = window.innerHeight;
-    
+
             sections.forEach(section => {
                 const rect = section.getBoundingClientRect();
                 if (rect.top < windowHeight && rect.bottom > 0) {
                     section.classList.add('visible');
+
+                    // Start typing effect when the header is visible
+                    if (section.id === "typing-header" && !typingStarted) {
+                        typingStarted = true; // Prevent restarting
+                        typeText(); // Start typing animation
+                    }
                 }
             });
         }
-    
+
         // Check visibility on scroll and resize
         window.addEventListener('scroll', checkVisibility);
         window.addEventListener('resize', checkVisibility);
-    
+
         // Initial check
         checkVisibility();
     });
-    </script>
+</script>
+
 
 </html>

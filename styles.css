@@ -107,3 +107,17 @@ footer {
     opacity: 1; /* Fully visible */
     transform: translateY(0); /* Move to original position */
 }
+
+#typing-header {
+    display: inline-block; /* Allow for width adjustment */
+    overflow: hidden; /* Hide text overflow */
+    border-right: 3px solid; /* Cursor effect */
+    white-space: nowrap; /* Prevent wrapping */
+    animation: blink 0.7s step-end infinite; /* Cursor blink animation */
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent; /* Hide cursor */
+    }
+}

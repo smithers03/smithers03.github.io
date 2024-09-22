@@ -19,9 +19,11 @@ header {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 5px; /* Set padding to 5px */
+    margin: 0;    /* Remove any margin */
     background-color: #171717;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: inline-block; /* Ensures the background only extends as wide as the content */
 }
 
 nav ul li {
@@ -81,11 +83,11 @@ section {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #171717;
-    border-radius: 10px;
-    color: #ededed;
+    background-color: #171717; /* Background color first */
+    color: #ededed;            /* Text color next */
+    padding: 20px;            /* Padding next */
+    text-align: center;       /* Text alignment next */
+    border-radius: 10px;      /* Border radius last */
 }
 
 .section {

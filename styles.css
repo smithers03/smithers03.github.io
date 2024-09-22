@@ -21,7 +21,7 @@ nav ul {
     list-style-type: none;
     padding: 5px; /* Set padding to 5px */
     margin: 0;    /* Remove any margin */
-    background-color: #494949;
+    background-color: #00c25b;
     border-radius: 10px;
     display: inline-block; /* Ensures the background only extends as wide as the content */
 }
@@ -42,6 +42,7 @@ h1 {
     font-size: 3em;
     word-wrap: break-word; /* Ensure long words wrap to the next line */
     overflow-wrap: break-word; /* Wrap content to the next line */
+    color: #00c25b
 
 }
 
@@ -51,7 +52,7 @@ h2 {
     margin-top: 20px;
     word-wrap: break-word; /* Ensure long words wrap to the next line */
     overflow-wrap: break-word; /* Wrap content to the next line */
-
+    color: #00c25b
 }
 
 h3 {
@@ -60,7 +61,7 @@ h3 {
     margin-top: 20px;
     word-wrap: break-word; /* Ensure long words wrap to the next line */
     overflow-wrap: break-word; /* Wrap content to the next line */
-
+    color: #00c25b
 }
 
 p {
@@ -108,7 +109,7 @@ footer {
     margin: 0 auto; /* Auto left and right margins for centering */
     text-align: center; /* Center text inside the footer */
     color: #ededed; 
-    background-color: #494949;
+    background-color: #00c25b;
     border-radius: 10px;
     max-width: 80%; /* Control the maximum width of the footer */
     display: block; /* Ensure the footer spans full width (remove inline-block) */

@@ -8,7 +8,6 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 20px;
-    background-color: #00ff77;
 }
 
 header {
@@ -85,7 +84,7 @@ footer {
 
 .section {
     opacity: 0; /* Start invisible */
-    transition: opacity 0.9s ease-in; /* Fade in effect */
+    transition: opacity 1.5s ease-in; /* Fade in effect */
 }
 
 .section.visible {

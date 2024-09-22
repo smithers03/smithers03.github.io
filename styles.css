@@ -28,9 +28,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(0, 0, 0); /* navigation bar*/
+    color: #ededed; /* navigation bar*/
     text-decoration: none;
     font-weight: bold;
+    background-color: #171717;
+    border-radius: 5px;
 }
 
 h1 {

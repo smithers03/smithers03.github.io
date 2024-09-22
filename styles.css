@@ -90,11 +90,12 @@ section {
 }
 
 footer {
-    background-color: #494949; /* Background color first */
-    color: #ededed;            /* Text color next */
-    padding: 20px;            /* Padding next */
-    text-align: center;       /* Text alignment next */
-    border-radius: 10px;      /* Border radius last */
+    list-style-type: none;
+    padding: 5px; /* Set padding to 5px */
+    margin: 0;    /* Remove any margin */
+    color: #ededed; 
+    background-color: #494949;
+    border-radius: 10px;
     display: inline-block; /* Ensures the background only extends as wide as the content */
 }
 

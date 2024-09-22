@@ -112,10 +112,6 @@ footer {
     transform: translateY(0); /* Move to original position */
 }
 
-.normal {
-    opacity: 1;
-}
-
 #typing-header {
     display: inline-block; /* Allow for width adjustment */
     overflow: hidden; /* Hide text overflow */

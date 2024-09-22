@@ -104,14 +104,14 @@ section {
 
 footer {
     list-style-type: none;
-    padding: 5px; /* Set padding to 5px */
-    /*margin: 0;     Remove any margin */
-    text-align: center;
+    padding: 20px; /* Increase padding to make it more spaced */
+    margin: 0 auto; /* Auto left and right margins for centering */
+    text-align: center; /* Center text inside the footer */
     color: #ededed; 
-    justify-content: center; /* Center the text */
     background-color: #494949;
     border-radius: 10px;
-    display: inline-block; /* Ensures the background only extends as wide as the content */
+    max-width: 80%; /* Control the maximum width of the footer */
+    display: block; /* Ensure the footer spans full width (remove inline-block) */
 }
 
 .section {

@@ -54,7 +54,7 @@ section {
     display: flex;
     justify-content: center; /* Center the images in the gallery */
     
-    gap: 20px; /* Adds space between the items */
+    gap: 3px; /* Adds space between the items */
 }
 
 .project-item {
@@ -85,7 +85,7 @@ footer {
 
 .section {
     opacity: 0; /* Start invisible */
-    transition: opacity 1.5s ease-in-out; /* Fade in effect */
+    transition: opacity 1.2s ease-in-out; /* Fade in effect */
 }
 
 .section.visible {

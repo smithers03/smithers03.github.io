@@ -76,7 +76,7 @@ section {
 }
 
 .project-gallery {
-    display: flex;
+    display: flex, wrap;
     justify-content: center; /* Center the gallery */
 }
 

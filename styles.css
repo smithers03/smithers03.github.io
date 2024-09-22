@@ -74,6 +74,10 @@ section {
     margin: 20px 0;
 }
 
+whitetext{
+    color: #ededed; 
+}
+
 .project-gallery {
     display: flex, wrap;
     justify-content: center; /* Center the gallery */

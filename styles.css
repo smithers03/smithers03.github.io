@@ -63,13 +63,13 @@ section {
 
 .project-item {
     text-align: center; /* Centers text and content in each project item */
-    width: 300px; /* Sets a consistent width for each item */
+    /*width: 300px; /* Sets a consistent width for each item */
 }
 
 .project-item img {
-    max-width: 100%; /* Ensures images are responsive */
+    /*max-width: 100%; /* Ensures images are responsive */
     height: auto;
-    border-radius: 5px; /* Optional: Rounds image corners */
+    /*border-radius: 5px; /* Optional: Rounds image corners */
 }
 
 .project-item iframe {
@@ -83,7 +83,8 @@ section {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #171717;
+    border-radius: 10px;
     /*
     text-color: rgb(255, 255, 255);*/
 }

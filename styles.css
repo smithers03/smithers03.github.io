@@ -51,6 +51,29 @@ section {
     margin: 20px 0;
 }
 
+.project-gallery {
+    display: flex;
+    justify-content: center; /* Centers the entire gallery */
+    gap: 20px; /* Adds 20px space between the project items */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    padding: 20px;
+}
+
+.project-item {
+    text-align: center; /* Centers the text and images within each project item */
+    width: 300px; /* Limits the width of each project item */
+}
+
+.project-item img {
+    max-width: 100%; /* Ensures the image scales responsively */
+    height: auto;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
+
+.project-item iframe {
+    margin-top: 10px; /* Adds space between the description and video */
+}
+
 .project {
     margin-bottom: 20px;
 }

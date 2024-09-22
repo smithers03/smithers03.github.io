@@ -85,7 +85,7 @@ footer {
 
 .section {
     opacity: 0; /* Start invisible */
-    transform: translateY(20px); /* Start slightly lower */
+    transform: translateY(70px); /* Start slightly lower */
     transition: opacity 1.2s ease, transform 1.2s ease; /* Animate both opacity and position */
 }
 

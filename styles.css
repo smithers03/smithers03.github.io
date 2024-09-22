@@ -58,15 +58,20 @@ section {
 
 .project-gallery {
     display: flex;
-    justify-content: center; /* Center the images in the gallery */
-    
-    /*gap: 3px; Adds space between the items */
+    justify-content: center; /* Center the gallery */
 }
 
 .project-item {
-    text-align: center; /* Centers text and content in each project item */
-    /*width: 300px; /* Sets a consistent width for each item */
+    text-align: center; /* Center text and content in each project item */
+    margin: 10px; /* Add some spacing around each project item */
 }
+
+.images {
+    display: flex; /* Align images in a row */
+    justify-content: center; /* Center images */
+    gap: 20px; /* Add space between images */
+}
+
 
 .project-item img {
     /*max-width: 100%; /* Ensures images are responsive */
@@ -76,10 +81,6 @@ section {
 
 .project-item iframe {
     margin-top: 10px; /* Adds space between description and video */
-}
-
-.project {
-    margin-bottom: 20px;
 }
 
 footer {

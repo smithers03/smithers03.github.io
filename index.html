@@ -108,4 +108,29 @@
         <p>&copy; 2024 Ellie Smith</p>
     </footer>
 </body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const sections = document.querySelectorAll('.section');
+    
+        function checkVisibility() {
+            const windowHeight = window.innerHeight;
+    
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < windowHeight && rect.bottom > 0) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+    
+        // Check visibility on scroll and resize
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('resize', checkVisibility);
+    
+        // Initial check
+        checkVisibility();
+    });
+    </script>
+
 </html>

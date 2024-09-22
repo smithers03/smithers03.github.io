@@ -85,7 +85,7 @@ footer {
 
 .section {
     opacity: 0; /* Start invisible */
-    transition: opacity 0.6s ease; /* Fade in effect */
+    transition: opacity 0.9s ease-in; /* Fade in effect */
 }
 
 .section.visible {

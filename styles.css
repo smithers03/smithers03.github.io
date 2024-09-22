@@ -95,7 +95,7 @@ footer {
     padding: 20px;            /* Padding next */
     text-align: center;       /* Text alignment next */
     border-radius: 10px;      /* Border radius last */
-    display: flex;
+    display: inline-block; /* Ensures the background only extends as wide as the content */
 }
 
 .section {
@@ -114,7 +114,7 @@ footer {
     overflow: hidden; /* Hide text overflow */
     border-right: 3px solid; /* Cursor effect */
     white-space: nowrap; /* Prevent wrapping */
-    animation: blink 0.7s step-end 5s; /* Cursor blink animation */
+    animation: blink 0.7s step-end infinite; /* Cursor blink animation */
 }
 
 @keyframes blink {

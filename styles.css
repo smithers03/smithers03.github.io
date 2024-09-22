@@ -99,6 +99,7 @@ footer {
     padding: 5px; /* Set padding to 5px */
     margin: 0;    /* Remove any margin */
     color: #ededed; 
+    justify-content: center; /* Center the text */
     background-color: #494949;
     border-radius: 10px;
     display: inline-block; /* Ensures the background only extends as wide as the content */

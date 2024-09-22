@@ -21,7 +21,7 @@ nav ul {
     list-style-type: none;
     padding: 5px; /* Set padding to 5px */
     margin: 0;    /* Remove any margin */
-    background-color: #00c25b;
+    background-color: #dc973c;
     border-radius: 10px;
     display: inline-block; /* Ensures the background only extends as wide as the content */
 }
@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    color: #00c25b;
+    color: #dc973c;
     text-align: center;
     font-size: 2em;
     margin-top: 20px;
@@ -107,7 +107,7 @@ footer {
     margin: 0 auto; /* Auto left and right margins for centering */
     text-align: center; /* Center text inside the footer */
     color: #ededed; 
-    background-color: #00c25b;
+    background-color: #dc973c;
     border-radius: 10px;
     max-width: 80%; /* Control the maximum width of the footer */
     display: block; /* Ensure the footer spans full width (remove inline-block) */

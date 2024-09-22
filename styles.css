@@ -18,7 +18,6 @@ header {
 }
 
 nav ul {
-    position: fixed;
     list-style-type: none;
     padding: 5px; /* Set padding to 5px */
     margin: 0;    /* Remove any margin */

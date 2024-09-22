@@ -21,7 +21,7 @@ nav ul {
     list-style-type: none;
     padding: 5px; /* Set padding to 5px */
     margin: 0;    /* Remove any margin */
-    background-color: #171717;
+    background-color: #494949;
     border-radius: 10px;
     display: inline-block; /* Ensures the background only extends as wide as the content */
 }
@@ -90,7 +90,7 @@ section {
 }
 
 footer {
-    background-color: #171717; /* Background color first */
+    background-color: #494949; /* Background color first */
     color: #ededed;            /* Text color next */
     padding: 20px;            /* Padding next */
     text-align: center;       /* Text alignment next */

@@ -83,7 +83,7 @@ p {
 }
 
 section {
-    margin: 0px 0;
+    margin: 20px 0;
 }
 
 a {
@@ -258,6 +258,10 @@ footer {
 
 /* Media query for small screens */
 @media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
 
     .padding{
         padding: 0 10px;

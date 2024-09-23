@@ -183,6 +183,11 @@ footer {
     width: 30%; /* Width of each box */
     text-align: center; /* Center text */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+    margin-right: 15px; /* Adds space between boxes */
+}
+
+.skill-box:last-child {
+    margin-right: 0; /* Removes margin from the last box */
 }
 
 .skill-box h3 {
@@ -192,6 +197,7 @@ footer {
 .skill-box p {
     margin: 0; /* Removes margin from paragraph */
 }
+
 
 
 @keyframes blink {

@@ -173,6 +173,7 @@ footer {
 .skill-container {
     display: flex; /* Use flexbox for horizontal layout */
     margin: 20px 0; /* Adds space above and below the boxes */
+    justify-content: center;
 }
 
 .skill-box {

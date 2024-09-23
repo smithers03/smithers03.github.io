@@ -255,6 +255,10 @@ footer {
 /* Media query for small screens */
 @media (max-width: 768px) {
 
+    .padding{
+        padding: 0 20px;
+    }
+
     p {
         margin: 10px 0;
         text-align: center;

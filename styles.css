@@ -62,6 +62,16 @@ h3 {
     overflow-wrap: break-word; /* Wrap content to the next line */
 }
 
+h4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    font-style: italic;
+    word-wrap: break-word; /* Ensure long words wrap to the next line */
+    overflow-wrap: break-word; /* Wrap content to the next line */
+}
+
 p {
     /*margin: 10px 0;*/
     text-align: center;

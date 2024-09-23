@@ -127,6 +127,23 @@ footer {
     display: block; /* Ensure the footer spans full width (remove inline-block) */
 }
 
+.back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    background-color: #dc973c; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 10px 15px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.back-to-top.visible {
+    display: block; /* Show when scrolled down */
+}
+
 .section {
     opacity: 0; /* Start invisible */
     transform: translateY(70px); /* Start slightly lower */

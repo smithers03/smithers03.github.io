@@ -236,7 +236,10 @@
     <footer>
         <p>&copy; 2024 Ellie Smith</p>
     </footer>
+    
 </body>
+
+<a href="#" id="back-to-top" class="back-to-top">Back to Top</a>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -247,6 +250,26 @@
         let index = 0;
         const typingSpeed = 150; // Adjust speed as needed
         let typingStarted = false; // To ensure typing starts only once
+
+        // Back to Top Button Functionality
+        const backToTopButton = document.getElementById('back-to-top');
+
+        window.addEventListener('scroll', function() {
+            // Check if the user scrolled down
+            if (window.scrollY > 200) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
+
+        backToTopButton.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent default anchor click behavior
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll to the top
+            });
+        });
 
         function typeText() {
             if (index < text.length) {
@@ -281,6 +304,7 @@
         checkVisibility();
     });
 </script>
+
 
 
 </html>

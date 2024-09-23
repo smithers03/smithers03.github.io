@@ -136,6 +136,30 @@ footer {
     animation: blink 0.7s step-end infinite; /* Cursor blink animation */
 }
 
+.job-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly between boxes */
+    margin: 20px 0; /* Adds space above and below the boxes */
+}
+
+.job-box {
+    background-color: #dc973c; /* Box color */
+    color: #ffffff; /* Text color */
+    padding: 20px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners */
+    width: 30%; /* Width of each box */
+    text-align: center; /* Center text */
+}
+
+.job-box h3 {
+    margin: 0 0 10px 0; /* Margin for the title */
+}
+
+.job-box p {
+    margin: 0; /* Removes margin from paragraph */
+}
+
+
 @keyframes blink {
     50% {
         border-color: transparent; /* Hide cursor */

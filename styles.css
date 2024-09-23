@@ -199,6 +199,11 @@ footer {
 /* Media query for small screens */
 @media (max-width: 768px) {
 
+    .images {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center images */
+    }
+
     nav ul {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items */

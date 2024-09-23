@@ -67,7 +67,6 @@ h4 {
     text-align: center;
     font-size: 1em;
     margin-top: 20px;
-    font-style: italic;
     word-wrap: break-word; /* Ensure long words wrap to the next line */
     overflow-wrap: break-word; /* Wrap content to the next line */
 }
@@ -146,7 +145,7 @@ footer {
 
 .section {
     opacity: 0; /* Start invisible */
-    transform: translateY(150px); /* Start slightly lower */
+    transform: translateY(90px); /* Start slightly lower */
     transition: opacity 1.5s ease, transform 1.5s ease; /* Animate both opacity and position */
 }
 

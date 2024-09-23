@@ -162,10 +162,6 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
 }
 
-.job-box h3 {
-    margin: 0 0 10px 0; /* Margin for the title */
-}
-
 .job-box p {
     margin: 0; /* Removes margin from paragraph */
 }

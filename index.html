@@ -274,6 +274,26 @@
             });
         });
 
+        // Smooth scroll for navigation links with an offset
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                const offset = 100; // Adjust this value for how much you want to scroll above the section
+                const targetPosition = targetElement.offsetTop - offset;
+
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth' // Smooth scroll effect
+                });
+            }
+        });
+    });
+
         function typeText() {
             if (index < text.length) {
                 header.innerText += text.charAt(index);

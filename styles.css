@@ -86,6 +86,16 @@ section {
     margin: 20px 0;
 }
 
+a {
+    color: #ff9100; /* Change this to your desired color */
+    text-decoration: none; /* Optional: removes the underline */
+}
+
+a:hover {
+    color: #ffb759; /* Change this to your desired hover color */
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
 whitetext{
     color: #ededed; 
 }

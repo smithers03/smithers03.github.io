@@ -170,6 +170,28 @@ footer {
     margin: 0; /* Removes margin from paragraph */
 }
 
+.skill-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    margin: 20px 0; /* Adds space above and below the boxes */
+}
+
+.skill-box {
+    background-color: #dc973c; /* Box color */
+    color: #ffffff; /* Text color */
+    padding: 20px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners */
+    width: 30%; /* Width of each box */
+    text-align: center; /* Center text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+}
+
+.skill-box h3 {
+    margin: 0 0 10px 0; /* Margin for the title */
+}
+
+.skill-box p {
+    margin: 0; /* Removes margin from paragraph */
+}
 
 
 @keyframes blink {

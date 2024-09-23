@@ -212,16 +212,31 @@ footer {
         margin: 10px 0; /* Vertical margin between stacked items */
     }
 
+    .project-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: stretch; /* Make boxes full width */
+    }
+    
     .project-item { /* Apply to both project and job boxes */
         width: 100%; /* Stack items */
         margin-bottom: 20px; /* Add space between stacked items */
     }
 
+    .skill-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: stretch; /* Make boxes full width */
+    }
+
     .skill-box {
         width: 100%; /* Full width on small screens */
-        margin-right: 0; /* Remove right margin */
         margin-bottom: 10px; /* Add space below each box */
     }
+
+    .job-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: stretch; /* Make boxes full width */
+    }
+
     .job-box {
         width: 100%; /* Full width on small screens */
         margin-right: 0; /* Remove right margin */

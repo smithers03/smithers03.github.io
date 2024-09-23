@@ -202,7 +202,18 @@ footer {
 
 /* Media query for small screens */
 @media (max-width: 768px) {
+
+    .project-item { /* Apply to both project and job boxes */
+        width: 100%; /* Stack items */
+        margin-bottom: 20px; /* Add space between stacked items */
+    }
+
     .skill-box {
+        width: 100%; /* Full width on small screens */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add space below each box */
+    }
+    .job-box {
         width: 100%; /* Full width on small screens */
         margin-right: 0; /* Remove right margin */
         margin-bottom: 10px; /* Add space below each box */

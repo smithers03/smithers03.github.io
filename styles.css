@@ -199,6 +199,10 @@ footer {
 /* Media query for small screens */
 @media (max-width: 768px) {
 
+    h2 {
+        font-size: 1.7em;
+    }
+
     .images {
         flex-direction: column; /* Stack images vertically */
         align-items: center; /* Center images */

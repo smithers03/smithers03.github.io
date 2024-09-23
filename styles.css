@@ -117,14 +117,22 @@ whitetext{
     margin-top: 10px; /* Adds space between description and video */
 }
 
+.project-container {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center child elements horizontally */
+    align-items: center; /* Center child elements vertically (if needed) */
+    flex-direction: column; /* Stack elements vertically, if you want multiple boxes */
+}
+
 .project-box {
-    justify-content: center;
     background-color: #7a4e14; /* Box color */
     color: #ffffff; /* Text color */
     padding: 10px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     text-align: center; /* Center text */
-    display: inline-block;
+    margin: 10px; /* Add some margin for spacing */
+    width: 80%; /* Set width (optional) */
+    max-width: 600px; /* Limit max width (optional) */
 }
 
 footer {

@@ -96,7 +96,6 @@ a:hover {
 
 .padding{
     padding: 0 50px;
-    color: #3700ff; 
 }
 whitetext{
     color: #ededed; 
@@ -320,6 +319,10 @@ footer {
         width: 100%; /* Full width on small screens */
         margin-right: 0; /* Remove right margin */
         margin-bottom: 25px; /* Add space below each box */
+    }
+
+    section {
+        margin: 10px 0;
     }
 }
 

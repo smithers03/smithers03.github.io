@@ -158,7 +158,7 @@ footer {
     padding: 20px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     width: 30%; /* Width of each box */
-    text-align: left; /* Center text */
+    text-align: center; /* Center text */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
 }
 
@@ -179,7 +179,7 @@ footer {
     padding: 20px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     width: 30%; /* Width of each box */
-    text-align: left; /* Center text */
+    text-align: center; /* Center text */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
     margin-right: 40px; /* Adds space between boxes */
 }

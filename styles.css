@@ -148,7 +148,7 @@ footer {
 
 .job-container {
     display: flex; /* Use flexbox for horizontal layout */
-    justify-content: space-between, center; /* Space between boxes */
+    justify-content: space-between; /* Space between boxes */
     margin: 20px 0; /* Adds space above and below the boxes */
 }
 

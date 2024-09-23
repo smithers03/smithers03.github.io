@@ -214,6 +214,7 @@ footer {
     }
     
     .project-item { /* Apply to both project and job boxes */
+        flex-direction: column; /* Stack items vertically */
         width: 100%; /* Stack items */
         margin-bottom: 20px; /* Add space between stacked items */
     }
@@ -224,6 +225,7 @@ footer {
     }
 
     .skill-box {
+        flex-direction: column; /* Stack items vertically */
         width: 100%; /* Full width on small screens */
         margin-bottom: 10px; /* Add space below each box */
     }
@@ -234,6 +236,7 @@ footer {
     }
 
     .job-box {
+        flex-direction: column; /* Stack items vertically */
         width: 100%; /* Full width on small screens */
         margin-right: 0; /* Remove right margin */
         margin-bottom: 10px; /* Add space below each box */

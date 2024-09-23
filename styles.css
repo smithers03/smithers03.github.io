@@ -185,7 +185,7 @@ footer {
     width: 30%; /* Width of each box */
     text-align: center; /* Center text */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
-    margin-right: 15px; /* Adds space between boxes */
+    margin-right: 40px; /* Adds space between boxes */
 }
 
 .skill-box:last-child {

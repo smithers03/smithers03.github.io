@@ -141,3 +141,7 @@ footer {
         border-color: transparent; /* Hide cursor */
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}

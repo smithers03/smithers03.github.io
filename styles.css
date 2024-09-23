@@ -117,7 +117,7 @@ whitetext{
 
 footer {
     list-style-type: none;
-    padding: 10px; /* Increase padding to make it more spaced */
+    padding: 5px; /* Increase padding to make it more spaced */
     margin: 0 auto; /* Auto left and right margins for centering */
     text-align: center; /* Center text inside the footer */
     color: #ededed; 

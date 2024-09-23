@@ -203,6 +203,15 @@ footer {
 /* Media query for small screens */
 @media (max-width: 768px) {
 
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Vertical margin between stacked items */
+    }
+
     .project-item { /* Apply to both project and job boxes */
         width: 100%; /* Stack items */
         margin-bottom: 20px; /* Add space between stacked items */

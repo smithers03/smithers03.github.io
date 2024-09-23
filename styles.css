@@ -170,8 +170,8 @@ footer {
 }
 
 .job-box {
-    background-color: #dc973c; /* Box color */
-    color: #ffffff; /* Text color */
+    background-color: #ffffff; /* Box color */
+    color: #dc973c; /* Text color */
     padding: 20px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     width: 30%; /* Width of each box */
@@ -181,6 +181,14 @@ footer {
 
 .job-box p {
     margin: 0; /* Removes margin from paragraph */
+}
+
+.job-title {
+    color: #dc973c; /* Orange color for the h3 text */
+    background-color: #ffffff; /* White background for the title */
+    padding: 10px; /* Inner padding for the title */
+    margin: 0; /* Remove default margin */
+    border-radius: 5px; /* Optional: rounded corners for the title background */
 }
 
 .skill-container {

@@ -233,7 +233,7 @@ footer {
 .skill-box {
     justify-content: center;
     background-color: #dc973c; /* Box color */
-    color: #ededed; /* Text color */
+    /*color: #ededed; /* Text color */
     padding: 20px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     width: 30%; /* Width of each box */

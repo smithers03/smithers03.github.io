@@ -199,6 +199,14 @@ footer {
 /* Media query for small screens */
 @media (max-width: 768px) {
 
+    p {
+        margin: 10px 0;
+        text-align: center;
+        word-wrap: break-word; /* Ensure long words wrap to the next line */
+        overflow-wrap: break-word; /* Wrap content to the next line */
+    
+    }
+
     h2 {
         font-size: 1.7em;
     }

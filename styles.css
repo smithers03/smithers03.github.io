@@ -170,8 +170,8 @@ footer {
 }
 
 .job-box {
-    background-color: #ffffff; /* Box color */
-    color: #dc973c; /* Text color */
+    background-color: #dc973c; /* Box color */
+    color: #ffffff; /* Text color */
     padding: 20px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     width: 30%; /* Width of each box */

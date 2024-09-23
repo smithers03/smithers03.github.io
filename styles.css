@@ -32,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff; /* navigation bar*/
+    color: #ededed; /* navigation bar*/
     text-decoration: none;
     font-weight: bold;
 }
@@ -65,7 +65,7 @@ h3 {
 }
 
 h4 {
-    color: #ffffff;
+    color: #ededed;
     text-align: center;
     font-size: 1em;
     margin-top: 20px;
@@ -97,7 +97,8 @@ a:hover {
 .padding{
     padding: 0 50px;
 }
-whitetext{
+
+.whitetext{
     color: #ededed; 
 }
 
@@ -137,7 +138,7 @@ whitetext{
 
 .project-box {
     background-color: #7a4e14; /* Box color */
-    color: #ffffff; /* Text color */
+    color: #ededed; /* Text color */
     padding: 10px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     text-align: center; /* Center text */
@@ -164,7 +165,7 @@ footer {
     top: 10px; /* Distance from the top */
     right: 10px; /* Distance from the right */
     background-color: #dc973c; /* Background color */
-    color: #ffffff; /* Text color */
+    color: #ededed; /* Text color */
     padding: 10px 15px; /* Padding */
     border-radius: 5px; /* Rounded corners */
     text-decoration: none; /* Remove underline */
@@ -202,7 +203,7 @@ footer {
 
 .job-box {
     background-color: #dc973c; /* Box color */
-    color: #7a4e14; /* Text color */
+    color: #ededed; 
     padding: 20px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     width: 30%; /* Width of each box */
@@ -216,7 +217,7 @@ footer {
 
 .job-title {
     color: #dc973c; /* Orange color for the h3 text */
-    background-color: #ffffff; /* White background for the title */
+    background-color: #ededed; /* White background for the title */
     padding: 10px; /* Inner padding for the title */
     margin: 0; /* Remove default margin */
     border-radius: 5px; /* Optional: rounded corners for the title background */
@@ -231,7 +232,7 @@ footer {
 .skill-box {
     justify-content: center;
     background-color: #dc973c; /* Box color */
-    color: #ffffff; /* Text color */
+    color: #ededed; /* Text color */
     padding: 20px; /* Inner padding */
     border-radius: 10px; /* Rounded corners */
     width: 30%; /* Width of each box */
@@ -245,10 +246,12 @@ footer {
 }
 
 .skill-box h3 {
+    color: #ededed; 
     margin: 0 0 10px 0; /* Margin for the title */
 }
 
 .skill-box p {
+    color: #ededed; 
     margin: 0; /* Removes margin from paragraph */
 }
 

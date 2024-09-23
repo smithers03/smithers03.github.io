@@ -200,6 +200,15 @@ footer {
     margin: 0; /* Removes margin from paragraph */
 }
 
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .skill-box {
+        width: 100%; /* Full width on small screens */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add space below each box */
+    }
+}
+
 
 
 @keyframes blink {

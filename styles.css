@@ -137,8 +137,8 @@ footer {
 }
 
 .job-container {
-    display: flex;
-    justify-content: space-around; /* Distributes space evenly between boxes */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Space between boxes */
     margin: 20px 0; /* Adds space above and below the boxes */
 }
 
@@ -149,6 +149,7 @@ footer {
     border-radius: 10px; /* Rounded corners */
     width: 30%; /* Width of each box */
     text-align: center; /* Center text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
 }
 
 .job-box h3 {
@@ -158,6 +159,7 @@ footer {
 .job-box p {
     margin: 0; /* Removes margin from paragraph */
 }
+
 
 
 @keyframes blink {

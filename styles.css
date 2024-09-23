@@ -210,7 +210,8 @@ footer {
     }
 
     nav ul li {
-        flex-direction: column; /* Stack items vertically */
+        margin-right: 20px;
+        /*flex-direction: column; /* Stack items vertically */
         margin: 10px 0; /* Vertical margin between stacked items */
     }
 

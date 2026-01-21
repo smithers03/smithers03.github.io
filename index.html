@@ -66,24 +66,24 @@
         let typingStarted = false; // To ensure typing starts only once
 
         // Back to Top Button Functionality
-        const backToTopButton = document.getElementById('back-to-top');
+        //const backToTopButton = document.getElementById('back-to-top');
 
-        window.addEventListener('scroll', function() {
+        /*window.addEventListener('scroll', function() {
             // Check if the user scrolled down
             if (window.scrollY > 200) {
                 backToTopButton.classList.add('visible');
             } else {
                 backToTopButton.classList.remove('visible');
             }
-        });
+        });*/
 
-        backToTopButton.addEventListener('click', function(e) {
+        /*backToTopButton.addEventListener('click', function(e) {
             e.preventDefault(); // Prevent default anchor click behavior
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth' // Smooth scroll to the top
             });
-        });
+        });*/
 
         // Smooth scroll for navigation links with an offset
     document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {

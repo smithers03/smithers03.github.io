@@ -72,4 +72,68 @@
             </div>
         </section>
     </body>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll('.section');
+            const header = document.getElementById("typing-header");
+            const text = header.innerText;
+            header.innerText = ""; // Clear the text initially
+            let index = 0;
+            const typingSpeed = 150; // Adjust speed as needed
+            let typingStarted = false; // To ensure typing starts only once
+
+            // Smooth scroll for navigation links with an offset
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    const offset = 30; // Adjust this value for how much you want to scroll above the section
+                    const targetPosition = targetElement.offsetTop - offset;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth' // Smooth scroll effect
+                    });
+                }
+            });
+        });
+
+            function typeText() {
+                if (index < text.length) {
+                    header.innerText += text.charAt(index);
+                    index++;
+                    setTimeout(typeText, typingSpeed);
+                }
+            }
+
+            function checkVisibility() {
+                const windowHeight = window.innerHeight;
+
+                sections.forEach(section => {
+                    const rect = section.getBoundingClientRect();
+                    if (rect.top < windowHeight && rect.bottom > 0) {
+                        section.classList.add('visible');
+
+                        // Start typing effect when the header is visible
+                        if (section.id === "typing-header" && !typingStarted) {
+                            typingStarted = true; // Prevent restarting
+                            typeText(); // Start typing animation
+                        }
+                    }
+                });
+            }
+
+            // Check visibility on scroll and resize
+            window.addEventListener('scroll', checkVisibility);
+            window.addEventListener('resize', checkVisibility);
+
+            // Initial check
+            checkVisibility();
+        });
+    </script>
 </html>

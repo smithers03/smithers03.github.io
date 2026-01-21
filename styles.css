@@ -153,8 +153,8 @@ footer {
     margin: 0 auto; /* Auto left and right margins for centering */
     text-align: center; /* Center text inside the footer */
     color: #ededed; 
-    background-color: #dc973c;
-    border-radius: 10px;
+    /*background-color: #dc973c;
+    border-radius: 10px;*/
     max-width: 80%; /* Control the maximum width of the footer */
     display: block; /* Ensure the footer spans full width (remove inline-block) */
 }
